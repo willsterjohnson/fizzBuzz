@@ -1,0 +1,13 @@
+{
+  "name": "fizzbuzz",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "npm run build ; node dist/index.js"
+  },
+  "devDependencies": {
+    "typescript": "^4.5.4"
+  }
+}
